@@ -3,7 +3,7 @@ Implementation of the simplified version of the original PageRank algorithm from
 > The PageRank algorithm is an algorithm used by Google Search to rank web pages in their search engine results to order or rank different web pages on the internet.
 
 ## Web Representation
-The entire internet consists of different webpages that can be represented as a graph. Each node represents a webpage and each edge represents a link between two webpages. In this project I implemented an Adjacency List graph becuase it have better space complexity.
+The entire internet consists of different web pages that can be represented as a graph. Each node represents a webpage, and each edge represents a link between two web pages. I implemented an Adjacency List graph in this project because it has better space complexity.
 
 ## User Input
 Line 1 contains the number of lines (n) that will follow and the number of power iterations (p) to perform. Each line from 2 to n+1 will contain two URL’s – from_page to_page separated by a single space. This means that the from_page points to the URL to_page.
@@ -19,7 +19,7 @@ Line 1 contains the number of lines (n) that will follow and the number of power
 > gmail.com maps.com
 
 ## Output Result
-Result PageRank of all pages after p powerIterations in ascending alphabetical order of webpage. Also, I round off the rank of the page to two decimal places.
+Result PageRank of all pages after p powerIterations in ascending alphabetical order of webpage. Also, I round off the page's rank to two decimal places.
 
 ### Example
 > facebook.com 0.20 \
